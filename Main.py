@@ -22,7 +22,7 @@ def main():
         print("Error: KNN training was not successful!")
         return
 
-    originalPhoto = cv2.imread("LicencePlatePhotos/2.png")
+    originalPhoto = cv2.imread("LicencePlatePhotos/38.png")
     if originalPhoto is None:
         print("Image not read from file \n")
         os.system("pause")
